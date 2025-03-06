@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  max-width: 1440px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Very-dark-blue-main-BG);
+  margin: 0 auto;
+}
+
+
+/* SECTION HERO */
+.hero-bg img {
+  border-radius: .375rem;
+}
+
+/* MAIN CONTENT */
+.container {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid hsl(217, 54%, 10%);
+  border-radius: 1rem;
+}
+
+.main-content {
+  padding: 1.4rem;
+  background: var(--Very-dark-blue-card-BG);
+  border-radius: .675rem;
+}
+
+.content h2 {
+  font-size: 1rem;
+  color: var(--White);
+  font-family: var(--font-outfit);
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.content p {
+  font-family: var(--font-outfit);
+  color: var(--Soft-blue);
+  font-size: .875rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+.info-list  {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1rem 0;
+}
+
+.info-list li {
+  display: flex;
+  align-items: center;
+}
+
+.info-list li img{
+  width: 8px;
+  height: 14px;
+}
+
+.info-list li:last-child img{
+  width: 14px;
+  height: 14px;
+}
+
+.info-list .eth {
+  font-family: var(--font-outfit);
+  font-size: .775rem;
+  margin-left: .275rem;
+  color: var(--Cyan);
+}
+
+.info-list .days {
+  font-family: var(--font-outfit);
+  font-size: .775rem;
+  margin-left: .275rem;
+  color: var(--Soft-blue);
+}
+
+.info {
+  border-bottom: 1px solid var(--Very-dark-blue-line);
+  margin: 0 0 .675rem 0;
+}
+
+/* CREATOR */
+.creator {
+  display: flex;
+  align-items: center;
+  gap: .675rem;
+}
+.creator img {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+
+.creator span {
+  font-family: var(--font-outfit);
+  color: var(--Soft-blue);
+  font-size: .775rem;
+}
+
+.creator .deco {
+  color: var(--White);
+}
+
+/* HOVER */
+.content h2:hover {
+  cursor: pointer;
+  color: var(--Cyan);
+}
+
+.creator .deco:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+}
